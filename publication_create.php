@@ -72,3 +72,4 @@ page_header('Nouvelle publication');
 </form>
 
 <?php page_footer(); ?>
+

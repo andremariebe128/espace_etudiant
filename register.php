@@ -50,7 +50,7 @@ if (is_post()) {
         $stmt->execute(['email' => $email]);
 
         if ($stmt->fetch()) {
-            $errors[] = 'Cet email est deja utilise.';
+            $errors[] = 'Cet email est déja utilisé.';
         }
     }
 

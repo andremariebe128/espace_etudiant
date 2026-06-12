@@ -20,9 +20,9 @@ if (is_post()) {
 
     // Validation explicite des champs obligatoires demandes dans le sujet.
     if (!isset($_POST['email']) || empty($email)) {
-        $errors[] = 'L email est obligatoire.';
+        $errors[] = "L'email est obligatoire.";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'L email est invalide.';
+        $errors[] = "L'email est invalide." ;
     }
 
     if (!isset($_POST['mot_de_passe']) || empty($password)) {
@@ -70,7 +70,7 @@ page_header('Connexion');
         <input id="mot_de_passe" name="mot_de_passe" type="password" required>
 
         <button class="primary-button" type="submit">Se connecter</button>
-        <p class="muted">Pas encore inscrit ? <a href="register.php">Creer un compte</a></p>
+        <p class="muted">Pas encore inscrit ? <a href="register.php">Créer un compte</a></p>
     </form>
 </section>
 
