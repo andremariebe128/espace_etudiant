@@ -1,6 +1,3 @@
-# Ignorer les dossiers
-uploads/
-
-
-# Ignorer les fichiers de configuration sensibles
+.gitignore
 db.php
+uploads/
