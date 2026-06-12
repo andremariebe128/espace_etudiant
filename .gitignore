@@ -1,6 +1,0 @@
-# Ignorer les dossiers
-uploads/
-
-
-# Ignorer les fichiers de configuration sensibles
-db.php
